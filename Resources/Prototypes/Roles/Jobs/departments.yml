@@ -114,7 +114,7 @@
   - SecurityOfficer
   - Detective
   - Warden
-  - Brigmedic
+  - Brigmedic # RS14
 
 - type: department
   id: Science

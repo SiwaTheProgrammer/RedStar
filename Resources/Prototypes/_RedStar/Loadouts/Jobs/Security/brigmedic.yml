@@ -1,19 +1,8 @@
 - type: loadout
-  id: BrigmedicSecurityHat
-  equipment:
-    head: ClothingHeadHatBeretSecurityMedic
-
-- type: loadout
   id: BrigmedicHat
   equipment:
     head: ClothingHeadHatBeretBrigmedic
 
-- type: loadout
-  id: BrigmedicHelmet
-  equipment:
-    head: ClothingHeadHelmetSecurityMedic
-
-# Маска
 - type: loadout
   id: BrigmedicGasSecurity
   equipment:
@@ -24,7 +13,6 @@
   equipment:
     mask: ClothingMaskBreathMedicalSecurity
 
-# Комбинезон
 - type: loadout
   id: BrigmedicJumpsuit
   equipment:
@@ -35,7 +23,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtBrigmedic
 
-# Перчатки
 - type: loadout
   id: BrigmedicGlovesLatex
   equipment:
@@ -51,7 +38,6 @@
   equipment:
     gloves: ClothingHandsGlovesColorBlack
 
-# Спина
 - type: loadout
   id: BrigmedicBackpack
   equipment:
@@ -67,17 +53,6 @@
   equipment:
     back: ClothingBackpackDuffelBrigmedic
 
-# Верхняя одежда
-- type: loadout
-  id: BrigmedicCoatLab
-  equipment:
-    outerClothing: ClothingOuterCoatLabSecurityMedic
-
-- type: loadout
-  id: BrigmedicVest
-  equipment:
-    outerClothing: ClothingOuterVestSecurityMedic
-
 - type: loadout
   id: BrigmedicCoatAMG
   equipment:
@@ -92,12 +67,6 @@
   id: BrigmedicVestArmor
   equipment:
     outerClothing: ClothingOuterVestArmorMedSec
-
-# Обувь
-- type: loadout
-  id: BrigmedicJackSec
-  equipment:
-    shoes: ClothingShoesBootsJackSecFilled
 
 - type: loadout
   id: BrigmedicCombat

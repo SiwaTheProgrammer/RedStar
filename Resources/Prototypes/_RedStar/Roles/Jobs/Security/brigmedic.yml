@@ -29,10 +29,8 @@
 - type: startingGear
   id: BrigmedicGear
   equipment:
-    eyes: ClothingEyesHudMedical
     id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
-    belt: ClothingBeltMedicalFilled
   storage:
     back:
     - Flash
@@ -42,9 +40,9 @@
   job: Brigmedic
   hasMindShield: true
   equipment:
-    head: ClothingHeadHatBeretSecurityMedic
+    head: ClothingHeadHatBeretBrigmedic
     eyes: ClothingEyesHudMedSec
     mask: ClothingMaskBreathMedicalSecurity
-    outerClothing: ClothingUniformJumpsuitBrigmedic #верхняя одежда
-    neck: ClothingNeckScarfStripedRed #шея
-    gloves: ClothingHandsGlovesLatex # перчи
+    outerClothing: ClothingUniformJumpsuitBrigmedic
+    neck: ClothingNeckScarfStripedRed
+    gloves: ClothingHandsGlovesLatex

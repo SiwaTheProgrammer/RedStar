@@ -119,8 +119,10 @@
     - id: BoxSterileMask
     - id: ClothingHeadHatBeretBrigmedic
     - id: ClothingOuterCoatAMG
-    - id: ClothingUniformJumpsuitBrigmedic
-    - id: ClothingUniformJumpskirtBrigmedic
+    #- id: ClothingUniformJumpsuitBrigmedic
+    #- id: ClothingUniformJumpskirtBrigmedic
+    - id: ClothingBeltMedicalFilled # RS14
+    - id: ClothingEyesHudMedical # RS14
     - id: ClothingUniformJumpskirtOfLife
       prob: 0.1
     - id: MedkitFilled

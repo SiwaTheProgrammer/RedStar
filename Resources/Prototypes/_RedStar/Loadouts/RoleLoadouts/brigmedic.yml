@@ -1,7 +1,6 @@
 - type: roleLoadout
   id: JobBrigmedic
   groups:
-  - Inventory # Corvax-Loadouts
   - BrigmedicHead
   - BrigmedicMask
   - BrigmedicJumpsuit

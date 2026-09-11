@@ -295,9 +295,7 @@
   id: BrigmedicHead
   name: loadout-group-brigmedic-head
   loadouts:
-  - BrigmedicSecurityHat
   - BrigmedicHat
-  - BrigmedicHelmet
 
 - type: loadoutGroup
   id: BrigmedicMask
@@ -333,17 +331,14 @@
   id: BrigmedicOuterClothing
   name: loadout-group-brigmedic-clothing
   loadouts:
-  - BrigmedicCoatLab
-  - BrigmedicVest
   - BrigmedicCoatAMG
-  - BrigmedicOuterWinterSec
   - BrigmedicVestArmor
+  - BrigmedicOuterWinterSec
 
 - type: loadoutGroup
   id: BrigmedicShoes
   name: loadout-group-brigmedic-shoes
   loadouts:
-  - BrigmedicJackSec
   - BrigmedicCombat
   - BrigmedicWinterSec
 
