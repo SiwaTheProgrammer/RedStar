@@ -1,6 +1,7 @@
 - type: roleLoadout
   id: JobBrigmedic
   groups:
+  - BrigmedicUnderwear # RS14
   - BrigmedicHead
   - BrigmedicMask
   - BrigmedicJumpsuit
