@@ -1,0 +1,75 @@
+﻿- type: entity
+  parent: MaterialBase
+  id: MaterialBlueSpaceCrystal
+  name: bluespace crystal
+  description: A crystal with unusual spatial properties.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: BlueSpaceCrystal
+    baseLayer: base
+    layerStates:
+    - bluespace_crystal
+    - bluespace_crystal_2
+    - bluespace_crystal_3
+  - type: Sprite
+    sprite: _RedStar/Objects/Materials/materials.rsi
+    state: bluespace_crystal
+    layers:
+    - state: bluespace_crystal
+      map: ["base"]
+  - type: Item
+    sprite: _RedStar/Objects/Materials/ore.rsi
+    heldPrefix: bluespace
+  - type: PhysicalComposition
+    materialComposition:
+      BlueSpaceCrystal: 100
+  - type: Tag
+    tags:
+    - RawMaterial
+
+- type: entity
+  parent: MaterialBlueSpaceCrystal
+  id: MaterialBlueSpaceCrystal1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: MaterialBase
+  id: MaterialRedSpaceCrystal
+  name: redspace crystal
+  description: A crystal with unstable spatial properties.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: RedSpaceCrystal
+    baseLayer: base
+    layerStates:
+    - redspace_crystal
+    - redspace_crystal_2
+    - redspace_crystal_3
+  - type: Sprite
+    sprite: _RedStar/Objects/Materials/materials.rsi
+    state: redspace_crystal
+    layers:
+    - state: redspace_crystal
+      map: ["base"]
+  - type: Item
+    sprite: _RedStar/Objects/Materials/ore.rsi
+    heldPrefix: redspace
+  - type: PhysicalComposition
+    materialComposition:
+      RedSpaceCrystal: 100
+  - type: Tag
+    tags:
+    - RawMaterial
+
+- type: entity
+  parent: MaterialRedSpaceCrystal
+  id: MaterialRedSpaceCrystal1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1

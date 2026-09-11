@@ -1,0 +1,68 @@
+﻿# This is a basic dictionary that maps old entity prototype ids to new ids. This only works for entity prototypes, and
+# is intended to allow maps to load without having to manually edit them. An empty or "null" string results in the
+# entity getting deleted.
+
+# e.g., you can swap all walls with windows and delete all tables by adding lines like:
+#
+# Window: WallSolid
+# WallSolid: Window
+# Table: null
+
+# 2026-08-24
+VendingMachinePride: VendingMachineUnderwear
+
+# 2026-08-28
+BookBusido: null
+BookDAM: null
+BookDione: null
+BookFaks: null
+BookMirt: null
+BookNakamura: null
+BookNooc: null
+BookShips: null
+BookStationsAndAgents: null
+BookUmpor: null
+BookUSSP: null
+BookVitz: null
+BookZP: null
+ClothingNeckWhiteListPin: null
+ClothingNeckSolarisPin: null
+ClothingNeckNebulaPin: null
+ClothingNeckNovaPin: null
+ClothingNeckMainPin: null
+ClothingNeckEchoPin: null
+ClothingNeckElysiumPin: null
+ClothingNeckAtharaPin: null
+ClothingNeckCorvaxPin: null
+BriefcaseIAAFilled: null
+LockerPilotFilled: null
+LockerPilotFilledHardsuit: null
+SuitStorageSecPilot: null
+PrintedDocumentComplaintViolationLaborRules: null
+PrintedDocumentDeathCertificate: null
+PrintedDocumentOrderDismissal: null
+PrintedDocumentPermissionToCarryWeapons: null
+PrintedDocumentPrescriptionDrugAuthorization: null
+PrintedDocumentReportStation: null
+PrintedDocumentSentence: null
+SpawnMobGorillaLargo: null
+SpawnPointPilot: null
+SpawnPointSurgeon: null
+ERTSpawnerEngineering: null
+ERTSpawnerLeader: null
+ERTSpawnerMedical: null
+ERTSpawnerSrcurity: null
+BarSignAlcoholic: null
+ClothingOuterVestArmorMedSec: null
+ClothingOuterVestArmorSec: null
+ClothingOuterVestSecurityMedic: null
+ClothingOuterCoatLabSecurityMedic: null
+ClothingShoesBootsJackSec: null
+RubberPig: null
+Garlands: null
+HighSecSatelliteLocked: HighSecCommandLocked
+HighSecVaultLocked: HighSecCommandLocked
+LootSpawnerContraband: null
+LootSpawnerContrabandHigh: null
+LootSpawnerContrabandLow: null
+FoodBakedVulpkaninPlate: null
